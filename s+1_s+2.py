@@ -3,7 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-w=np.linspace(-10, 10, 100)
+w=np.linspace(-10, 10, 100)   #representing real frequency from -10 to 10
 a = np.ones((1,100),float)
 
 nom = 1j*w+a[0]
